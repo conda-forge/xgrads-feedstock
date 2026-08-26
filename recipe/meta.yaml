@@ -1,13 +1,13 @@
 {% set name = "xgrads" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 430aecd995ad6804d2e9121c30b2dbc2d68a515f22d30f5e56a95e501ee49501
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cbaf639910d06f53496b25d1205378619b6d7b3658ecea699f0d9bb188628614
 
 build:
   noarch: python

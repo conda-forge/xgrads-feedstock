@@ -1,5 +1,5 @@
 {% set name = "xgrads" %}
-{% set version = "0.2.8" %}
+{% set version = "0.2.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cbaf639910d06f53496b25d1205378619b6d7b3658ecea699f0d9bb188628614
+  sha256: cf12e4f7390989c1be9990096308ed85d29efd3945d7d1d8c071ca593a35ffe6
 
 build:
   noarch: python
